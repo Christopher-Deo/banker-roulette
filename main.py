@@ -1,6 +1,6 @@
 import random
 #Split string method
-names_string = input("Give me everybody's names, separated by a comma. ")
+names_string = eval(input("Give me everybody's names, separated by a comma. "))
 #creates a list from names_string
 names = names_string.split(", ")
 #calculating a random index number between 0 and length of names minus 1
